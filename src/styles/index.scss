@@ -1,15 +1,15 @@
-body {
-  font-family: Roboto, sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
 @import 'variables';
-@import 'mixins';
-@import 'blocks/header';
-@import 'blocks/main';
-@import 'blocks/card';
-@import 'blocks/stars';
+@import 'header';
+@import 'cards';
+@import 'stars';

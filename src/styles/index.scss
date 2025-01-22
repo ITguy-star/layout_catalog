@@ -1,15 +1,6 @@
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
-}
-
-@import 'variables';
-@import 'header';
-@import 'cards';
-@import 'stars';
+@import './utils/variables';
+@import './utils/mixins';
+@import './blocks/page';
+@import './blocks/header';
+@import './blocks/card';
+@import './blocks/catalog';
